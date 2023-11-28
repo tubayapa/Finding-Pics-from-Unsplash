@@ -1,0 +1,73 @@
+body {
+  background-image: url(/image/bg.jpg);
+  object-fit: cover;
+ 
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 20px 0;
+}
+#form {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#searchInput {
+  width: 75%;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  border: none;
+  background-color: lightgray;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 0 lightgray;
+  font-size: 15px;
+}
+
+.button-wrapper {
+  margin: 20px 0;
+  display: flex;
+  gap: 30px;
+}
+
+#searchButton {
+  width: 100px;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #20c02b;
+  color: white;
+  box-shadow: 3px 3px 3px 0 lightgray;
+  cursor: pointer;
+  border: none;
+}
+
+#clearButton {
+  width: 100px;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #ec4545;
+  color: white;
+  box-shadow: 3px 3px 3px 0 lightgray;
+  cursor: pointer;
+  border: none;
+}
+
+.imagelist-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagelist-wrapper .card {
+  margin: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 0 lightgray;
+}
